@@ -110,9 +110,9 @@ namespace Tarea_5
 
                     String entrada;
 
-                    Console.WriteLine("");
+                    Console.WriteLine("Ingresa el número del que quieras ver la tabla de multiplicar");
                     entrada = Console.ReadLine();
-                    a = Convert.ToInt32(entrada);
+                    a = int.Parse(entrada);
 
                     for (int x = 1; x <= 10; x++)
                     {
