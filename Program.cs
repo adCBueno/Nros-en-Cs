@@ -28,7 +28,7 @@ namespace Tarea_5
                     int[] datos = new int[10];
 
                     int max = datos[0];
-                    int min = datos[0];
+                    
                     int prom = 0;
                     double r;
 
@@ -46,6 +46,7 @@ namespace Tarea_5
                     {
                         Console.WriteLine(datos[l]);
                     }
+                    int min = datos[0];
                     for (int j = 0; j < datos.Length; j++)
                     {
                         if (datos[j] < min)
